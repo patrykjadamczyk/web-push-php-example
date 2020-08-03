@@ -3,7 +3,7 @@
     "description": "Example of Web Push with PHP",
     "type": "project",
     "require": {
-        "minishlink/web-push": "^5.2"
+        "minishlink/web-push": "^6.0"
     },
     "license": "MIT",
     "authors": [
