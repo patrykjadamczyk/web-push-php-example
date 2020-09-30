@@ -129,16 +129,16 @@
         },
         {
             "name": "guzzlehttp/guzzle",
-            "version": "7.0.1",
+            "version": "7.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "2d9d3c186a6637a43193e66b097c50e4451eaab2"
+                "reference": "7edeaa528fbb57123028bd5a76b9ce9540194e26"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/2d9d3c186a6637a43193e66b097c50e4451eaab2",
-                "reference": "2d9d3c186a6637a43193e66b097c50e4451eaab2",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/7edeaa528fbb57123028bd5a76b9ce9540194e26",
+                "reference": "7edeaa528fbb57123028bd5a76b9ce9540194e26",
                 "shasum": ""
             },
             "require": {
@@ -152,7 +152,6 @@
                 "psr/http-client-implementation": "1.0"
             },
             "require-dev": {
-                "ergebnis/composer-normalize": "^2.0",
                 "ext-curl": "*",
                 "php-http/client-integration-tests": "dev-phpunit8",
                 "phpunit/phpunit": "^8.5.5",
@@ -166,7 +165,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "7.0-dev"
+                    "dev-master": "7.1-dev"
                 }
             },
             "autoload": {
@@ -206,7 +205,25 @@
                 "rest",
                 "web service"
             ],
-            "time": "2020-06-27T10:33:25+00:00"
+            "funding": [
+                {
+                    "url": "https://github.com/GrahamCampbell",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/Nyholm",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/alexeyshockov",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/gmponos",
+                    "type": "github"
+                }
+            ],
+            "time": "2020-09-22T09:10:04+00:00"
         },
         {
             "name": "guzzlehttp/promises",
@@ -332,16 +349,16 @@
         },
         {
             "name": "minishlink/web-push",
-            "version": "v6.0.1",
+            "version": "v6.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/web-push-libs/web-push-php.git",
-                "reference": "bbbd3e12369d6d08a0ff5c4ff040a354bf95068c"
+                "reference": "eddd95ca726bc529fbce7aaa90662584ad7ded3e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/web-push-libs/web-push-php/zipball/bbbd3e12369d6d08a0ff5c4ff040a354bf95068c",
-                "reference": "bbbd3e12369d6d08a0ff5c4ff040a354bf95068c",
+                "url": "https://api.github.com/repos/web-push-libs/web-push-php/zipball/eddd95ca726bc529fbce7aaa90662584ad7ded3e",
+                "reference": "eddd95ca726bc529fbce7aaa90662584ad7ded3e",
                 "shasum": ""
             },
             "require": {
@@ -387,7 +404,7 @@
                 "push",
                 "web"
             ],
-            "time": "2020-09-13T05:00:26+00:00"
+            "time": "2020-09-29T04:38:42+00:00"
         },
         {
             "name": "psr/http-client",
@@ -634,19 +651,20 @@
         },
         {
             "name": "web-token/jwt-core",
-            "version": "v2.2.2",
+            "version": "v2.2.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/web-token/jwt-core.git",
-                "reference": "0909efa4fe2c3e2d537922b3ea1b65eb8203686c"
+                "reference": "8115d846f3a9ee817dca03024eb4c17a3c0ff81a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/web-token/jwt-core/zipball/0909efa4fe2c3e2d537922b3ea1b65eb8203686c",
-                "reference": "0909efa4fe2c3e2d537922b3ea1b65eb8203686c",
+                "url": "https://api.github.com/repos/web-token/jwt-core/zipball/8115d846f3a9ee817dca03024eb4c17a3c0ff81a",
+                "reference": "8115d846f3a9ee817dca03024eb4c17a3c0ff81a",
                 "shasum": ""
             },
             "require": {
+                "brick/math": "^0.8.17|^0.9",
                 "ext-json": "*",
                 "ext-mbstring": "*",
                 "fgrosse/phpasn1": "^2.0",
@@ -715,11 +733,11 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2020-08-22T13:17:25+00:00"
+            "time": "2020-09-29T21:35:58+00:00"
         },
         {
             "name": "web-token/jwt-key-mgmt",
-            "version": "v2.2.2",
+            "version": "v2.2.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/web-token/jwt-key-mgmt.git",
@@ -809,7 +827,7 @@
         },
         {
             "name": "web-token/jwt-signature",
-            "version": "v2.2.2",
+            "version": "v2.2.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/web-token/jwt-signature.git",
@@ -895,7 +913,7 @@
         },
         {
             "name": "web-token/jwt-signature-algorithm-ecdsa",
-            "version": "v2.2.2",
+            "version": "v2.2.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/web-token/jwt-signature-algorithm-ecdsa.git",
@@ -974,16 +992,16 @@
         },
         {
             "name": "web-token/jwt-util-ecc",
-            "version": "v2.2.2",
+            "version": "v2.2.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/web-token/jwt-util-ecc.git",
-                "reference": "a4b745d110ebeb439ab5056713a5fc5743eee3ea"
+                "reference": "fb70cd92f91311fd211c0e1f69c7d7e69a638459"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/web-token/jwt-util-ecc/zipball/a4b745d110ebeb439ab5056713a5fc5743eee3ea",
-                "reference": "a4b745d110ebeb439ab5056713a5fc5743eee3ea",
+                "url": "https://api.github.com/repos/web-token/jwt-util-ecc/zipball/fb70cd92f91311fd211c0e1f69c7d7e69a638459",
+                "reference": "fb70cd92f91311fd211c0e1f69c7d7e69a638459",
                 "shasum": ""
             },
             "require": {
@@ -1052,7 +1070,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2020-09-01T22:25:49+00:00"
+            "time": "2020-09-29T21:25:37+00:00"
         }
     ],
     "packages-dev": [],
